@@ -93,5 +93,7 @@ import reionization as cr
 import parameters as cparam
 import magnitudes as cmag
 import luminosityfunction as cl
+import growth_ode as Dode
+
 
 fidcosmo = cparam.WMAP7_BAO_H0_mean(flat=True, extras=True)
